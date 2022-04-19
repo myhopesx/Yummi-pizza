@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Open+Sans:wght@300&family=Secular+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#Home {
+    background: url(../images/pizza.jpg)no-repeat center  fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nave  */
+
+#Home .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    right: 0;
+}
+
+#Home .nav ul a {
+    color: rgba(255, 255, 255, 0.85);
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+#Home .nav ul a:hover {
+    text-decoration: underline;
+}
+
+#Home .nav ul .logo {
+    margin-right: 10rem;
+    font-family: 'Secular One', sans-serif;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: -4rem;
+}
+
+#Home .nav ul .logo:hover {
+    text-decoration: none;
+}
+
+#Home .nav ul input {
+    border: rgba(255, 255, 255, 0.85) solid;
+    border-width: 1px;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(255, 255, 255, 0.85);
+    padding: 1rem 3rem;
+}
+
+#Home .nav ul input:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #E68556;
+    opacity: 0.9;
+}
+
+#Home .nav ul a li i {
+    font-size: 1.8rem;
+}
+#Home .nav ul a li i:hover{
+
+    color: #E68556;
+}
+/* Home Banner */
+
+.banner-content {
+    display: flexbox;
+    text-align: center;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 5rem;
+}
+
+.banner-content h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 1.2rem;
+    margin-top: 3rem;
+}
+
+.banner-content p {
+    font-family: 'Tangerine', cursive;
+    font-size: 6rem;
+}
+
+.banner-content input[type=submit] {
+    color: rgba(255, 255, 255, 0.85);
+    background-color: #E68556;
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+    border: none;
+    margin: 2rem;
+}
+
+.banner-content input[type=submit]:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #E68556;
+}
+
+
+
+/* What-People-Say section */
+
+#What-People-Say {
+    font-family: 'Open Sans';
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E68556
+}
+
+#What-People-Say img {
+    height: 100%;
+    width: 50%;
+    right: 10%;
+}
+
+#What-People-Say .What-People-Say-content {
+    padding: 2rem 0rem 0rem 7rem;
+}
+
+#What-People-Say .What-People-Say-content h1 {
+    font-family: 'Great Vibes', cursive;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-left: 3rem;
+}
+
+#What-People-Say .What-People-Say-content p {
+    padding: 1rem 7rem 4rem 4rem;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    color: rgba(255, 255, 255, 0.85)
+}
+
+
+
+
+/* Vision */
+
+#Vision {
+    height: 90vh;
+    background-image: url(../images/v1.jpg);
+    background-position:   bottom center;
+    background-size: cover;
+}
+
+#Vision .loc-content {
+    display: flexbox;
+    text-align: right;
+    padding: 0rem 25rem 12rem 10rem;
+    padding-top: 5rem;
+
+}
+
+#Vision .loc-content h1 {
+    font-family: 'Bebas Neue', cursive;
+    padding: 1rem;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    opacity: 0.9;
+    border-bottom: solid white;
+    border-right: solid white;
+    color: #F7F4ED;
+}
+#Vision .loc-content p {
+    text-align: left;
+    font-family: Monospace;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin-left: 3rem;
+    color: rgba(255, 255, 255, 0.849);
+    line-height: 1.5;
+
+}
+
+
+#HomePagefooter{
+
+    height: 40vh;
+    display: flexbox;
+    text-align: center;
+    background-color: #222023;
+    padding: 7rem 7rem 0rem 0rem;
+}
+
+#HomePagefooter h1{
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.5rem;
+    color: #F7F4ED;
+    letter-spacing: 3px;
+    padding-bottom: 2rem;
+
+}
+
+#HomePagefooter table tbody{
+
+    position: absolute;
+    left: 30%;
+    
+}
+
+
+
+#HomePagefooter table tbody tr td{
+
+    color: #F7F4ED;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    
+}
+
+#HomePagefooter table tbody tr td p{
+
+    color: #E68556;
+    font-weight: bold;
+    
+}
+
+
+/* About section */
+
+#About {
+    font-family: 'Open Sans';
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7F4ED;
+}
+
+#About img {
+    height: 100%;
+    width: 50%;
+    right: 10%;
+}
+
+#About .our-story {
+    padding: 2rem 0rem 0rem 7rem;
+}
+
+#About .our-story h1 {
+    font-family: 'Great Vibes', cursive;
+    color: black;
+    font-size: 5rem;
+    font-weight: lighter;
+    margin-left: 3rem;
+}
+
+#About .our-story p {
+    padding: 1rem 7rem 4rem 4rem;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+}
+
+#About .our-story input[type=submit] {
+    color: rgba(255, 255, 255, 0.85);
+    background-color: #E68556;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    position: absolute;
+    margin-top: -1rem;
+    right: 59%;
+}
+
+#About .our-story input[type=submit]:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #E68556;
+    opacity: 0.9;
+}

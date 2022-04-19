@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Open+Sans:wght@300&family=Secular+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.counter{
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btnR{
+	width: 450px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #d9d9d9;
+	display: flex;
+	justify-content: first baseline;
+	align-items: center;
+	font-size: 40px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color:  #222023;
+	cursor: pointer;
+    margin: 30px;
+    padding: 15px;
+    
+}
+
+.btnL{
+	width: 450px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color:  #222023;
+	cursor: pointer;
+    margin: 30px;
+    padding: 15px;
+    
+}
+
+.count{
+	font-size: 40px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+    color: #222023;
+}
+
+#Home {
+    background-image: url(../images/cartban.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nave  */
+
+#Home .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    right: 0;
+}
+
+#Home .nav ul a {
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+#Home .nav ul a:hover {
+    text-decoration: underline;
+}
+
+#Home .nav ul .logo {
+    margin-right: 10rem;
+    font-family: 'Secular One', sans-serif;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: -4rem;
+}
+
+#Home .nav ul .logo:hover {
+    text-decoration: none;
+}
+
+#Home .nav ul input {
+    border: white solid;
+    border-width: 1px;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(255, 255, 255, 0.85);
+    padding: 1rem 3rem;
+    margin-top: 2.5rem;
+}
+
+#Home .nav ul input:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #E68556;
+    opacity: 0.9;
+}
+
+#Home .nav ul a li i {
+    font-size: 1.8rem;
+}
+#Home .nav ul a li i:hover{
+
+    color: #E68556;
+}
+
+/* Home Banner */
+
+.banner-content {
+    display: flexbox;
+    text-align: center;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 5rem;
+}
+
+.banner-content h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 1.2rem;
+    margin-top: 3rem;
+}
+
+.banner-content p {
+    font-family: 'Tangerine', cursive;
+    font-size: 6rem;
+}
+
+/* EISO Main Menu starts*/
+
+#main-menu {
+    color: #ffffff;
+    padding: 0rem 5rem;
+    background-color:  #ffffff;
+    height: 120vh;
+    padding-bottom: 4rem;
+}
+
+#main-menu .menu-content {
+    display: block;
+    margin-left: 16.5rem;
+    padding: 4rem;
+    opacity: 0.9;
+}
+#main-menu .menu-content h1{
+    display: block;
+    margin-left: -17.5rem;
+    padding: 4rem;
+    opacity: 0.9;
+}
+
+#main-menu .menu-content table tbody tr td {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+#main-menu .menu-content table tbody tr td h3 {
+    font-size: 1.7rem;
+    color: #222023;
+}
+#main-menu .menu-content h2 {
+    font-size: 1.7rem;
+    color: #E68556;
+}
+
+#main-menu .menu-content table tbody tr td p {
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    color: #222023;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+#main-menu .menu-content h1 {
+    letter-spacing: 2px;
+    display: flexbox;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: #E68556;
+    font-family: 'Great Vibes', cursive;
+}
+
+#main-menu .menu-content input[type=submit] {
+    position: absolute;
+    right: 55%;
+    background-color: #222023;
+    color: #E68556;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    border: none;
+    margin-top: 5.5rem;
+   
+}
+
+#main-menu .menu-content input[type=submit]:hover {
+    
+    color: #222023;
+    background-color: #E68556;
+    opacity: 0.9;
+}
+
+#main-menu .confirm input[type=submit] {
+    position: absolute;
+    right: 35%;
+    color: #222023;
+    background-color: #E68556;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    border: none;
+    margin-top: 1.5rem;
+   
+}
+
+#main-menu .confirm input[type=submit]:hover {  
+    
+    background-color: #222023;
+    color: #E68556;
+    opacity: 0.9;
+}
+/* EISO Main Menu ends*/
+
+/* EISO After menu starts*/
+
+
+/* EISO After menu ends*/
+
+/* locations */
+
+#HomePagefooter{
+
+    height: 50vh;
+    display: flexbox;
+    text-align: center;
+    background-color: #222023;
+    padding: 7rem 7rem 0rem 0rem;
+}
+
+#HomePagefooter h1{
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.5rem;
+    color: #F7F4ED;
+    letter-spacing: 3px;
+    padding-bottom: 2rem;
+
+}
+
+#HomePagefooter table tbody{
+
+    position: absolute;
+    left: 30%;
+    
+}
+
+
+
+#HomePagefooter table tbody tr td{
+
+    color: #F7F4ED;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    
+}
+
+#HomePagefooter table tbody tr td p{
+
+    color: #E68556;
+    font-weight: bold;
+    
+}
